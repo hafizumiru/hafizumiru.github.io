@@ -1,3 +1,3 @@
 # hafizumiru.github.io
-semoga bisa dipakai
+root web for free hosting in github
 
