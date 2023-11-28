@@ -1,3 +1,3 @@
 # hafizumiru.github.io
-root web for free hosting in github
+repository ini berisi Curriculum Vitae dari saya Shahmirul Hafizullah Imanuddin 
 
