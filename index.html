@@ -4,20 +4,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,200&display=swap" rel="stylesheet">
+    <script src="script.js" type="text/javascript" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <title>My Portfolio Profile</title>
 </head>
 
 <body>
-    <img src="img/fotoMirul.jpg" alt="">
-    <h1>Shahmirul Hafizullah Imanuddin</h1>
-    <div class="social-section">
-        <i class="fas fa-envelope social-icons"></i>
-        <i class="fab fa-whatsapp social-icons"></i>
-        <i class="fab fa-linkedin social-icons"></i>
+    <!-- START NAV -->
+
+    <div class="navbar">
+
+        <nav id="navbar" class="nav-box">
+            <ul class="nav-list">
+                <li>
+                    <a href="#profile">Profile</a>
+                </li>
+                <li>
+                    <a href="#project">Project</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
     </div>
+
+    <!-- END NAV -->
+
+    <!-- START CONTENT -->
+
+    <div class="content">
+
+        <!-- START PROFILE SECTION -->
+
+        <section id="profile" class="profile-section">
+            <div class="profile-container">
+                <div class="profile-item picture">
+                    <img src="img/fotoKu.jpg" alt="My Profile Picture">
+                </div>
+                <div class="profile-item data">
+                    <h1>Shahmirul Hafizullah</h1>
+                    <h3>Graduate Student</h3>
+                    <table class="profile-table">
+                        <tr>
+                            <td><ion-icon name="mail-outline"></ion-icon></td>
+                            <td>shahmirulhafizullah39@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td><ion-icon name="logo-whatsapp"></ion-icon></td>
+                            <td>+62 81218012032</td>
+                        </tr>
+                        <tr>
+                            <td><ion-icon name="logo-linkedin"></ion-icon></ion-icon></td>
+                            <td><a class="linkedin-page"
+                                    href="https://www.linkedin.com/in/shahmirul-hafizullah-3265241b7/"
+                                    target="_blank">Shahmirul
+                                    Hafizulah</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="profile-item about-me">
+                    <h2>About Me</h2>
+                    <p>As an ambitious aspiring data analyst, I am a recent graduate with a Master's degree in
+                        Information Systems. I
+                        bring strong skills in statistical analysis, data processing, Python, SQL, and full-stack
+                        development. Eager to apply
+                        academic knowledge, I excel in collecting, cleaning, and analyzing data. Adaptable and
+                        detail-oriented, I'm ready to
+                        contribute to innovative projects and thrive in a dynamic, data-driven team.</p>
+                </div>
+                <div class="profile-item skill">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- END PROFILE SECTION -->
+
+        <!-- START PROJECT SECTION -->
+
+        <section id="project" class="project-section">
+            <div class="project-container">
+                <h2 class="project-header">These are some of My Projects</h2>
+                <div class="project-list">
+                    <div class="project-item">
+                        <img class="project-image" src="https://i.imgur.com/6WHgqUR.png" alt="project">
+                        <h3 class="project-title">
+                            Miku Survey Form
+                        </h3>
+                        <a href="https://hafizumiru.github.io/mikuSurveyForm/" target="_blank" class="project-btn">View
+                            Project
+                        </a>
+                    </div>
+                    <div class="project-item">
+                        <img class="project-image" src="https://i.imgur.com/2zTtczj.png" alt="project">
+                        <h3 class="project-title">
+                            Hatsune Miku Tribute Page
+                        </h3>
+                        <a href="https://hafizumiru.github.io/mikuTributePage/" target="_blank" class="project-btn">View
+                            Project
+                        </a>
+                    </div>
+                    <div class="project-item">
+                        <img class="project-image" src="https://i.imgur.com/TRskefN.png" alt="project">
+                        <h3 class="project-title">
+                            Community Page
+                        </h3>
+                        <a href="https://hafizumiru.github.io/tempatBuangJin//" target="_blank" class="project-btn">View
+                            Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- END PROJECT SECTION -->
+
+        <!-- START CONTACT SECTION -->
+
+        <section id="contact" class="contact-section">
+            <div class="contact-header">
+                <h2>Stay Connected</h2>
+                <p>Follow me on my other social media...</p>
+            </div>
+            <div class="contact-link">
+                <a id="profile-link" href="https://github.com/hafizumiru" target="_blank" class="contact-detail btn"><i
+                        class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.facebook.com/shahmirul.hafizullah" target="_blank" class="contact-detail btn"><i
+                        class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="https://twitter.com/HafizuMiru" target="_blank" class="contact-detail btn"><i
+                        class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://www.instagram.com/hafizumiru/" target="_blank" class="contact-detail btn"><i
+                        class="fab fa-instagram"></i></i> Instagram</a>
+            </div>
+        </section>
+
+        <!-- END CONTACT SECTION -->
+    </div>
+
+    <!-- END CONTENT -->
+
+    <!-- START FOOTER -->
+
+    <footer>
+        <p>&copy; 2024 Shahmirul Hafizullah. All rights reserved.</p>
+    </footer>
+
+    <!-- END FOOTER -->
 </body>
 
 </html>
